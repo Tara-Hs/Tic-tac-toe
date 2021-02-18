@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('bg.jpg');
+}
+.play-again-btn {
+    background-color: rgb(165, 108, 108);
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: orangered;
+}
+button:hover {
+    background-color: pink;
+}
+.top-board {
+    width: 610px;
+    height: 160px;
+    background-color: rgba(231, 208, 199, 0.267);
+    margin-bottom: 20px;
+    border-radius: 40px 40px 5px 5px;
+}
+
+h3, h1 {
+    font-size: larger;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    padding: 35px;
+    color: #521818ce;
+    text-align: center;
+   
+    
+}
+
+h1 {
+    font-size: 25px;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2 { 
+    padding-top: 0;
+}
+main {
+    padding: 2% 20%;
+    border-top: 0;
+    width: 98%;
+}
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 610px;
+    height: 610px;
+    background-color: #f1927f;
+    
+}
+
+
+.board div {
+    width: 200px;
+    height: 200px; 
+    background-color: mistyrose;
+    margin-bottom: 5px;
+    transform: rotateZ(8deg);
+    border-radius: 30px 30px 30px 30px;
+    
+}
+
+
+.PLAYER-X {
+background-image: url('cross\ 200.png');
+}
+
+.PLAYER-O {
+background-image: url('circle\ 200.png');
+}
+
+
