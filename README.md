@@ -28,10 +28,14 @@ A readme for General Assembly to match the Game I've written the codes for.
 
  There is a PlayAgain button on the page which will refresh the page back to start so that the players can go for more rounds.
 
+ At the moment the game has 8 draw possibilities.
+
+
  # Unsolved problems
 
  Still working on the game, as this is my first game to code. 
  The game wont stop after there's a winner. 
- Also I'm still working on drawing possibilities.
-
+ Also I'm still working on more drawing possibilities. 
  
+
+
