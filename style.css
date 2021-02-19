@@ -1,23 +1,26 @@
 * {
     box-sizing: border-box;
 }
+
+
 body {
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('bg.jpg');
 }
 .play-again-btn {
-    background-color: rgba(165, 108, 108, 0.418);
-    text-align: center;
+    background-color: rgba(194, 75, 75, 0.61);
+    text-align: left;
     border-radius: 5px 5px 5px 5px;
     border: none;
-    font-size: 30px;
+    font-size: 20px;
     cursor: pointer;
-    color: orangered;
+    color: rgb(236, 234, 233);
+    margin-top: 30px;
 }
 button:hover {
     background-color: pink;
 }
 .top-board {
-    width: 610px;
+    width: 500px;
     height: 160px;
     background-color: rgba(231, 208, 199, 0.274);
     margin-bottom: 20px;
@@ -51,17 +54,18 @@ h2 {
 
 }
 main {
-    padding: 2% 20%;
+    padding: 0;
     border-top: 0;
     width: 100%;
     padding-top: 10%;
 }
+
 .board {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 610px;
-    height: 610px;
+    width: 500px;
+    height: 500px;
     background-color: #f1927f0e;
     padding: auto;
     padding-top: 20px;
@@ -70,8 +74,8 @@ main {
 
 
 .board div {
-    width: 200px;
-    height: 200px; 
+    width: 160px;
+    height: 160px; 
     background-color: mistyrose;
     margin-bottom: 5px;
     transform: rotateZ(8deg);
@@ -83,11 +87,11 @@ main {
 
 
 .PLAYER-X {
-background-image: url('cross\ 200.png');
+background-image: url('cross150px.png');
 }
 
 .PLAYER-O {
-background-image: url('circle\ 200.png');
+background-image: url('circle150px.png');
 }
 
 

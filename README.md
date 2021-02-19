@@ -13,10 +13,10 @@ A readme for General Assembly to match the Game I've written the codes for.
  _Targol Hosseini, General Assembly_
 
  Links
- [Visit website]()
+ [Visit website](https://tara-hs.github.io/Tic-tac-toe/)
 
 
- ## Explanation
+ ## Features
 
  There will be three different files accessible, HTML, CSS and Java Script.
  The technics used for the game board is flex, wrap.
@@ -31,7 +31,7 @@ A readme for General Assembly to match the Game I've written the codes for.
  At the moment the game has 8 draw possibilities.
 
 
- # Unsolved problems
+ # Things to work on next
 
  Still working on the game, as this is my first game to code. 
  The game wont stop after there's a winner. 
