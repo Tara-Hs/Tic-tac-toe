@@ -20,11 +20,16 @@ A readme for General Assembly to match the Game I've written the codes for.
 
  There will be three different files accessible, HTML, CSS and Java Script.
  The technics used for the game board is flex, wrap.
- Some CSS small touch ups which I will upgrade intime. 
+ There are 9 squares which been wrapped together to look like a board.
 
- For the actual game I have used the event listener tech for the computer to score for each player as they click on the board.
+ There's been features like board transparency and shadows added to the boxes, also using method transform, the boards been rotated around Z axis.
+
+ For the actual game I have used the event listener tech for the computer to score for each player as they click on the board, which happens with a for loop initially.
+ For each click, it will change the current player status to the component player. 
+ Sound effects been added for each click of each player, as well as for background sound n winning n draws.
 
  Also for the winning possibilities I have used if statements, and if the player X or O wins, it will display on the screen who won, as well as an alert message.
+ Basically it will check if the added classList is of any player
 
  There is a PlayAgain button on the page which will refresh the page back to start so that the players can go for more rounds.
 
