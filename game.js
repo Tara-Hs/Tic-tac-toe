@@ -7,6 +7,17 @@ var clickSoundX = new Audio('sounds/click.mp3');
 var clickSoundO = new Audio('sounds/clickO.mp3');
 var winSound = new Audio('sounds/people.mp3');
 var backgroundSound = new Audio('sounds/backgroundSound.mp3');
+
+var players = {
+    one: {
+        name: 'player X',
+        score: 0
+    },
+    two: { 
+        name: 'player O',
+        score: 0
+    }
+}
 var drawSound = new Audio('sounds/crash.mp3')
 
 function preload() {
@@ -58,6 +69,7 @@ function handleClick(event) {
     if(squares[0].classList.contains('PLAYER-O')&&squares[1].classList.contains('PLAYER-O')&&squares[2].classList.contains('PLAYER-O') == true) {
        
         document.querySelector('.top-board').textContent = 'O wins!';
+        players.one.score++
         document.querySelector('.top-board').style.color='#FF0000';
         document.querySelector('.top-board').style.fontSize='60px';
         document.querySelector('.top-board').align='center';
@@ -216,7 +228,6 @@ for(i=0; i < squares.length; i++) {
 
 function refreshPage(){
     window.location.reload();
-    
     
 } 
 
